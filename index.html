@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>FastBuy</title>
+<title>PubliMarcas</title>
 <link rel="stylesheet" href="css/estilos.css">
 
 <!--using FontsForWeb.com-->
@@ -23,7 +23,7 @@
 
 </head>
 <body>
-<h1>Formulario de Acceso</h1>
+<h1>Bienvenidos!!</h1>
 
 <div class="params">
 	<form name="form1" id="form1" action="index.php" method="post">
@@ -44,18 +44,6 @@
 	</form>
 </div>
 
-<?php
-$serverName = "localhost\SQLEXPRESS";
-$connectionInfo = array( "Database"=>"FASTBUY", "UID"=>"sa", "PWD"=>"123456");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn ) {
-	echo "BUENALE!!!<br />";
-}else{
-	echo "Conexión no se pudo establecer.<br />";
-	die( print_r( sqlsrv_errors(), true));
-}
-
-?>
 
 
 <script>
