@@ -1,93 +1,35 @@
 ﻿body {
-	padding-left: 4em;
-	padding-right: 4em;
-	padding-top: 2em;
+	--padding-left: 4em;
+	--padding-right: 4em;
+	--padding-top: 2em;
 	font-family: Verdana;
-	color: black;
-	background-color:#F0F8FF; 
+	color: white;
+	--background-color:#F0F8FF; 
+	background-color:#00264d;
 }
 h1 {
 	color:SlateGray;
-	color:Navy;
+	color:#b3cccc;
 	font-size: 38px;
 	font-weight: bold;
 	text-align: center;
 	font-family:'eurof35';
+	font-family:'Arial';
 }
 
-.titlerpt{
-	font-size: 18px;
-	color: #2d8caa;
-	font-size: 18px;
+h3 {
+	color:SlateGray;
+	color:#f2f2f8;
+	font-size: 30px;
+	font-weight: bold;
 	text-align: center;
-	font-family: Verdana;
+	font-family:'eurof35';
+	font-family:'Arial';
 }
 
-.btnPrimary{
-	color: white;
-	border: none;
-	font-size: 16px;
-	text-align: center;
-	padding: 12px 28px;
-	border-radius: 12px;
-	background-color: #008CBA;
-	transition-duration: 0.4s;
-}
-
-.btnPrimary:hover {
-  background-color: #80AAEE;
-  color: #ffffff;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.params{
-	padding: 12px 28px;
-	margin-top: 28px;
-	border-radius: 8px;
-	border: solid 1px #e6e6ff;
-	background-color: #fafafa;
-}
-
-.tblparams{
-	width:90%;
-	margin:auto;
-	color: #146e82;
-}
-
-.divreport{
-	margin: 40px 80px;
-	border-radius: 14px;
-	padding: 15px 30px 210px 30px;
-	border: solid 1px #e6e6ff;
-	background-color: #ffffff;
-}
-
-.tblreport {
-	font-family:Arial;
-	border-collapse: collapse;
-	margin:auto;
-	width: 100%;
-}
-.tblreport td, .tblreport th {
-	border: 1px solid #e6e6ff;
-	padding: 4px;
-	font-size:12px;
-}
-.tblreport td {
-	color: #006666;
-}
-.tblreport tr:nth-child(even){background-color: #ffffff;}
-.tblreport tr:hover {background-color: #f9fdfd;}
-.tblreport th {
-	padding-top: 8px;
-	padding-bottom: 8px;
-	text-align: center;
-	background-color:#1f8098;
-	color: #ffffff;
-	font-size:12px;
-	font-weight: bolder;
-}
-	
-.tdNumber{
-	text-align:right;
+.divimage{
+	display: flex;
+	justify-content: center; /* Centra horizontalmente */
+	align-items: center;    /* Centra verticalmente */
+	height: 224px;          /* Altura del contenedor */
 }
