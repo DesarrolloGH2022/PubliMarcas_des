@@ -8,9 +8,9 @@
 	background-color:#00264d;
 }
 h1 {
-	color:SlateGray;
+	color:Lavender;
 	color:#b3cccc;
-	font-size: 38px;
+	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
 	font-family:'eurof35';
@@ -25,11 +25,71 @@ h3 {
 	text-align: center;
 	font-family:'eurof35';
 	font-family:'Arial';
+	text-transform:uppercase;
 }
+
+h4 {
+  color:AliceBlue;
+  font-size:26px;
+  text-align:center;
+  font-family:courier;
+  background-color:LightSlateGrey;	
+}
+
+p {
+  color:GhostWhite;
+  font-size:18px;
+  text-align:left;
+  font-family:verdana, courier;
+}
+
 
 .divimage{
 	display: flex;
 	justify-content: center; /* Centra horizontalmente */
 	align-items: center;    /* Centra verticalmente */
 	height: 224px;          /* Altura del contenedor */
+}
+
+.divseccioncolumbia {
+  display: flex;
+}
+.divseccioncolumbia > div {
+  width:50%;
+
+}
+
+
+
+.imggrayscale {
+  filter: grayscale(100%); /* Starts in grayscale */
+  transition: filter 0.3s ease; /* Smooth transition to color */
+}
+
+.imggrayscale:hover {
+  filter: grayscale(0%); /* Full color on hover */
+}
+
+
+
+.imgscale {
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.imgscale:hover {
+  transform: scale(1.2); /* Enlarges the image slightly */
+}
+
+.imgopacity:hover {
+  opacity: 0.7; /* Makes the image slightly transparent on hover */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+
+.imgborder{
+	transition-duration: 0.4s;
+}
+
+.imgborder:hover{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(255,255,255,0.5);
 }
