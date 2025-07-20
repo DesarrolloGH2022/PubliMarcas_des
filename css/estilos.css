@@ -53,13 +53,27 @@ p {
 
 .divseccioncolumbia {
   display: flex;
+  margin-top: 28px;
 }
 .divseccioncolumbia > div {
   width:50%;
+}
 
+.divseccionoxford {
+  display: flex;
+  margin-top: 28px;
+}
+.divseccionoxford > div {
+  width:50%;
 }
 
 
+.divseccionpolo {
+  display: flex;
+}
+.divseccionpolo > div {
+  width:98%;
+}
 
 .imggrayscale {
   filter: grayscale(100%); /* Starts in grayscale */
